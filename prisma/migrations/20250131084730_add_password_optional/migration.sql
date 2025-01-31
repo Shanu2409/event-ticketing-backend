@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Buyer" ALTER COLUMN "password" DROP NOT NULL,
+ALTER COLUMN "password" DROP DEFAULT;
